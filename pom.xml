@@ -34,15 +34,20 @@
     <relativePath />
   </parent>
 
-  <groupId>com.cloudbees.jenkins.plugins</groupId>
+  <groupId>de.roehrich.jenkins.plugins</groupId>
   <artifactId>amazon-ecs</artifactId>
-  <version>1.4-SNAPSHOT</version>
+  <version>1.4</version>
   <packaging>hpi</packaging>
-  <name>Amazon EC2 Container Service plugin</name>
+  <name>Amazon EC2 Container Service plugin (fork: @roehrijn)</name>
   <description>Jenkins plugin to run dynamic slaves in a Amazon ECS/Docker environment</description>
   <url>https://wiki.jenkins-ci.org/display/JENKINS/Amazon+EC2+Container+Service+Plugin</url>
 
   <developers>
+    <developer>
+      <id>roehrijn</id>
+      <name>Jan Roehrich</name>
+      <email>jan@roehrich.info</email>
+    </developer>
     <developer>
       <id>ndeloof</id>
       <name>Nicolas De Loof</name>
@@ -51,9 +56,8 @@
   </developers>
 
   <scm>
-    <connection>scm:git:git://github.com/jenkinsci/amazon-ecs-plugin.git</connection>
-    <developerConnection>scm:git:git@github.com:jenkinsci/amazon-ecs-plugin.git</developerConnection>
-    <url>https://github.com/jenkinsci/amazon-ecs-plugin</url>
+    <connection>https://github.com/roehrijn/amazon-ecs-plugin-roehrijn-fork.git/tags/amazon-ecs-1.4</connection>
+    <url>https://github.com/roehrijn/amazon-ecs-plugin-roehrijn-fork/tags/amazon-ecs-1.4</url>
     <tag>HEAD</tag>
   </scm>
 
